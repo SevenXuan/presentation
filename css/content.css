@@ -1,0 +1,184 @@
+@CHARSET "UTF-8";
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	border:1px solid;
+	margin:0px auto;
+	width:960px;
+	color:white;
+}
+
+/* 封面样式 */
+#top{
+	border:1px solid;
+	margin:0px auto;
+	height:600px;
+	background-image:url(../images/page2.jpg);
+	background-size:cover;
+	position:relative;
+}
+
+#top ul{
+	list-style:none;
+	position:relative;
+	left:20px;
+}
+
+#top ul li{
+	border:1px solid white;
+	width:20px;
+	float:left;
+	margin:10px;
+	text-align:center;
+	cursor:pointer;
+}
+
+#top ul li:hover{
+	color:orange;
+	border:1px solid orange;
+}
+
+.head p{
+	color:white;
+	font:200 20px "微软雅黑";
+	line-height:30px;
+	margin:0px auto;
+}
+
+.p1{
+	position:absolute;
+	top:50%;
+	left:47%;
+}
+
+.p2{
+	position:absolute;
+	top:57%;
+	left:43%;
+}
+
+body div div{
+	width:93px;
+	height:93px;
+	border-radius:50px;
+	overflow:hidden;
+	position:relative;
+	margin:3px auto;
+}
+
+
+.photoborder{
+	border:1px white solid;
+	width:100px;
+	height:100px;
+	border-radius:50px;
+	margin:200px auto;
+}
+
+body div p span{
+	font-size:30px;
+	color:#fff;
+}
+
+img{
+	position:absolute;
+	top:1%;
+	right:-2%;
+}
+
+
+/* 以下是框架样式 */
+body div:nth-of-type(3){
+	margin:10px auto;
+	width:960px;
+	border:1px solid;
+	overflow:hidden;
+	height:500px;
+	background:url(../images/page1.jpg);
+	background-size:cover;
+}
+body div:nth-of-type(4){
+	margin:10px auto;
+	width:960px;
+	border:1px solid;
+	overflow:hidden;
+	height:500px;
+	background:url(../images/page1.jpg);
+	background-size:cover;
+}
+body div:nth-of-type(5){
+	margin:10px auto;
+	width:960px;
+	border:1px solid;
+	overflow:hidden;
+	height:500px;
+	background:url(../images/page1.jpg);
+	background-size:cover;
+}
+
+.choose{
+	width:150px;
+	float:right;
+	position:fixed;
+	right:0px;
+	top:200px;
+}
+
+.choose ul li{
+	border:1px solid gray;
+	border-radius:5px;
+	list-style:none;
+	width:80px;
+	text-align:center;
+	margin:5px;
+	padding:5px;
+	background:#fff;
+}
+
+li a{
+	text-decoration:none;
+	color:gray;
+}
+
+li a:hover{
+	color:orange;
+}
+
+.bottom{
+	color:black;
+}
+
+div .title{
+	position:relative;
+	left:30px;
+	top:10px;
+	font-size:30px;
+}
+div .title1{
+	position:relative;
+	left:30px;
+	top:30px;
+	font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

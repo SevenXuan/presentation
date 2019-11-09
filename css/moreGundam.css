@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+#container,.sections,.section{
+	width:92%;
+	height:100%;
+}
+
+html,body{
+	width:80%;
+	height:100%;
+}
+.section{
+	margin-left:290px;
+	background-color:#000;
+	background-size:cover;
+	background-position:50% 50%;
+	text-align:center;
+	color:white;
+}
+
+h3{
+	position:relative;
+	top:550px;
+	left:0px;
+}
+
+#section1{
+	background-image:url(../images/model1.jpeg)
+}
+#section2{
+	background-image:url(../images/model2.jpeg)
+}
+#section3{
+	background-image:url(../images/model3.jpeg)
+}
+#section4{
+	background-image:url(../images/model4.jpg)
+}
+#section5{
+	background-image:url(../images/qinwa.jpg)
+}
+
+
+
+
+
+
+
+

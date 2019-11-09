@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.left{
+	float:left;
+	width:20%
+}
+
+#container,.sections,.section{
+	height:100%;
+}
+
+html,body{
+	height:100%;
+}
+.section{
+	background-color:#000;
+	background-size:cover;
+	background-position:50% 50%;
+	text-align:center;
+	color:white;
+}
+
+h3{
+	position:relative;
+	top:550px;
+	left:0px;
+}
+
+#section1{
+	background-image:url(../images/moto1.jpeg)
+}
+#section2{
+	background-image:url(../images/moto2.jpeg)
+}
+#section3{
+	background-image:url(../images/moto3.jpeg)
+}
+#section4{
+	background-image:url(../images/moto4.jpeg)
+}
+#section5{
+	background-image:url(../images/moto6.jpg)
+}
+
+
+
+
+
+
+
+
